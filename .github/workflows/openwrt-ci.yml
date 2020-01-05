@@ -53,6 +53,7 @@ jobs:
           git clone https://github.com/tzxiaozhen88/luci-app-koolproxyR.git
           git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git
           git clone https://github.com/rosywrt/luci-theme-rosy
+          git clone https://github.com/pymumu/luci-app-smartdns.git
 
 
           # sudo mkdir -p -m 777 /mnt/openwrt/bin /mnt/openwrt/build_dir/host /mnt/openwrt/build_dir/hostpkg /mnt/openwrt/dl /mnt/openwrt/feeds /mnt/openwrt/staging_dir
@@ -196,6 +197,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-privoxy=y
           CONFIG_PACKAGE_luci-app-vssr=y
           CONFIG_PACKAGE_luci-app-koolproxyR=y
+          CONFIG_PACKAGE_luci-app-smartdns=y
           EOF
 
           # LuCI主题:
