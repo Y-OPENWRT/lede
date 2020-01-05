@@ -9,9 +9,9 @@
 
 name: OpenWrt-Y
 
-on:
-  push:
-    branches: 
+#on:
+  #push:
+    #branches: 
       - master
   # schedule:
   #   - cron: 0 20 * * *
